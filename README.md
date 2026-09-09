@@ -41,4 +41,6 @@ $MY_VAR). Выйдите из bash и из zsh.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/670b81b0-5703-456a-b35e-432da7f13e62" />
 
 2.3.3. Запустите fish. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b94f0e20-2c84-46f6-85ff-bed8a8e817ab" />
+
 
