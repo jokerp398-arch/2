@@ -130,3 +130,34 @@ export EDITOR="nano"
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c58611c-6a07-4a99-b41f-bbefa9d2ac01" />
 
 2.8.2. Выполните source ~/.bashrc
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1fcb52b8-b0aa-48a4-8cf5-52b2baaf6c7a" />
+
+2.8.3. Проверьте: echo $EDITOR. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ef12775-9796-4134-b3e8-c24e7e1aeb05" />
+
+2.8.4. Добавьте также export WORKSPACE="$HOME/lab2".
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4b2bd881-5933-445c-b138-0ebd5630a483" />
+
+2.8.5. Проверьте, что после перезапуска терминала эти переменные остаются.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/12f2c37a-b209-4874-bed0-ed991f62e381" />
+
+2.9. Комплексный скрипт (закрепление) 
+Напишите скрипт на bash (файл lab2_script.sh) со следующим функционалом: 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1aa59ade-c259-4cab-9391-949301bb06b4" />
+
+2.9.1. Скрипт принимает один аргумент – имя файла. 
+2.9.2. Проверяет, передан ли аргумент; если нет – выводит сообщение об ошибке в 
+stderr и завершается с кодом 1. 
+2.9.3. Создаёт временную переменную окружения BACKUP_TIME с текущей 
+датой. 
+2.9.4. Создаёт каталог backup в $HOME/lab2, если его нет. 
+2.9.5. Копирует переданный файл в каталог backup с добавлением суффикса .bak. 
+2.9.6. Записывает в файл backup/log.txt строку вида: YYYY-MM-DD HH:MM:SS - 
+скопирован файл <имя> в <путь к бэкапу> (использовать echo и 
+перенаправление >>). 
+2.9.7. Выводит сообщение об успехе в stdout. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ab6ff93-f812-4b6a-824f-3ba25c418b9a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6f2d83e9-f077-42c8-9ff6-2c84ee9a2f6b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/874c3f3d-2140-4871-8cbb-c7a4ce07b18f" />
+
+
