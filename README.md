@@ -75,3 +75,10 @@ echo "First"; echo "Second"; echo "Third"
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e6bb1bf1-002b-4285-b58c-8e387714e48e" />
 
 2.4.5. Вычислите количество процессов вашего пользователя:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6174e328-6cec-424c-9d20-2db0909a5d01" />
+
+2.5.1. В текущей сессии bash создайте алиас lll='ls -l | grep "^d"'.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4e303480-929a-45a2-ba60-f3e63e571723" />
+
+2.5.2. Выполните lll в каталоге lab2. 
+
