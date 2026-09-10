@@ -90,5 +90,15 @@ echo "First"; echo "Second"; echo "Third"
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/52976b71-968b-494b-935a-aa5be28ca471" />
 
 2.6.1. Отредактируйте файл ~/.bashrc.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/30795cff-296f-4c5b-85c5-50f5f02c31c8" />
 
+2.6.2. Примените изменения: source ~/.bashrc.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a73c77d8-0a56-4ba8-bbd9-f1d74978ff4f" />
 
+2.6.3. Проверьте работу алиасов: up (можно отменить Ctrl+C), myip.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/566b87cf-3d94-4267-b9c7-c3b4f7359825" />
+
+2.6.4. (Для zsh пропишите аналогичные алиасы в ~/.zshrc, для fish – в 
+~/.config/fish/config.fish с синтаксисом alias up "sudo apt update && sudo apt 
+upgrade -y").
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/59c83107-7720-4589-a2fe-0b6da89a6abc" />
