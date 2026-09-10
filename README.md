@@ -78,7 +78,17 @@ echo "First"; echo "Second"; echo "Third"
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6174e328-6cec-424c-9d20-2db0909a5d01" />
 
 2.5.1. В текущей сессии bash создайте алиас lll='ls -l | grep "^d"'.
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4e303480-929a-45a2-ba60-f3e63e571723" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/785c7efe-576e-45f6-bac7-6a75e9167510" />
 
-2.5.2. Выполните lll в каталоге lab2. 
+2.5.2. Выполните lll в каталоге lab2.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5d9fb08c-4d0d-4ccc-83a9-9b312ed50e78" />
+
+2.5.3. Создайте алиас myip='curl ifconfig.me 2> /dev/null'. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e966f398-58ea-4465-8585-a144cac19c6f" />
+
+2.5.4. Убедитесь, что после закрытия терминала алиасы пропадут
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/52976b71-968b-494b-935a-aa5be28ca471" />
+
+2.6.1. Отредактируйте файл ~/.bashrc.
+
 
