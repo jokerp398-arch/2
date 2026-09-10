@@ -43,4 +43,35 @@ $MY_VAR). Выйдите из bash и из zsh.
 2.3.3. Запустите fish. 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b94f0e20-2c84-46f6-85ff-bed8a8e817ab" />
 
+2.3.3.1. 
+Создайте алиас: alias ll 'ls -la'. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ab6d36ab-93d0-4434-ac31-cb87d9455852" />
 
+2.3.3.2. 
+Создайте переменную окружения: set -x MY_VAR "hello from fish". 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/73da262f-f1c8-47f5-b4b6-40b280a65d56" />
+
+2.3.4. Проверьте: echo $MY_VAR. Выйдите из fish
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/250ddb32-e561-4936-b452-4de5138368b0" />
+
+2.3.5. Сделайте вывод: в чём основные отличия синтаксиса алиасов и переменных 
+в bash vs fish? Запишите в отчёт. 
+Алиасы. В Bash — простые подстановки без аргументов; в Fish заменены гибкими функциями с поддержкой аргументов.
+Переменные. В Bash — классический синтаксис и явный экспорт (export); в Fish — команда set, автоэкспорт и упрощённое обращение.
+Философия. Bash придерживается традиционных Unix‑подходов, Fish делает акцент на интуитивность и расширенные возможности
+
+2.4.1. Выполните последовательно три команды через ;: 
+echo "First"; echo "Second"; echo "Third" 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e6abbe1a-535d-4305-9239-6499ea1db011" />
+
+2.4.2. Используя &&, создайте файл test.txt и только в случае успеха запишите в 
+него "OK": 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/928830b7-d771-4c9f-ac20-b4f26e7dfa1f" />
+
+2.4.3. Сымитируйте ошибку: rm notexist.txt || echo "File not found". 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9032894d-8059-46d0-a712-cdc5b4489947" />
+
+2.4.4. Постройте конвейер из трёх команд:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e6bb1bf1-002b-4285-b58c-8e387714e48e" />
+
+2.4.5. Вычислите количество процессов вашего пользователя:
