@@ -1,5 +1,5 @@
 2.1. Подготовка 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/025d700f-88a3-4eaf-8e3a-c6c34c21a62e" />
+![src1](https://github.com/user-attachments/assets/025d700f-88a3-4eaf-8e3a-c6c34c21a62e)
 
 2.2.1. Создайте текстовый файл data.txt со строками: 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a10b9eb3-3263-4062-84dd-79615acb52b3" />
@@ -102,3 +102,31 @@ echo "First"; echo "Second"; echo "Third"
 ~/.config/fish/config.fish с синтаксисом alias up "sudo apt update && sudo apt 
 upgrade -y").
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/59c83107-7720-4589-a2fe-0b6da89a6abc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e01f7013-f4b5-4603-9dfc-bb881f44f306" />
+
+2.7.1. В bash создайте локальную переменную TEMP_VAR="temporary". 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b058e99a-97af-440c-a641-4ef14f4be5ee" />
+
+2.7.2. Выполните echo $TEMP_VAR.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/10512f3a-1ba7-4eda-9ccd-6663fb2fde5d" />
+
+2.7.3. Запустите bash (дочерняя оболочка) и попробуйте вывести echo $TEMP_VAR. 
+Объясните результат.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/19cf9a28-8015-459e-bdd8-05d809c0d698" />
+
+2.7.4. Выйдите из дочерней оболочки (exit). Создайте экспортируемую 
+переменную: 
+export GLOBAL_VAR="exported" 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23ef0d36-1025-491a-b452-98e5cc1f1d74" />
+
+2.7.5. Запустите bash и проверьте echo $GLOBAL_VAR. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cb690adc-4acd-4c12-a730-240dd82d1f31" />
+
+2.7.6. Удалите переменную: unset GLOBAL_VAR. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/645e028c-774a-407b-81e9-f54dfdc94b82" />
+
+2.8.1. Добавьте в ~/.bashrc строку: 
+export EDITOR="nano" 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c58611c-6a07-4a99-b41f-bbefa9d2ac01" />
+
+2.8.2. Выполните source ~/.bashrc
